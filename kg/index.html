@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Static Site Boilerplate</title>
+
+    <script src="./javascripts/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="stylesheets/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+
+    <meta name="description" content="" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div>
+          <img
+            src="./images/kg.png"
+            style="
+              width: 20vw;
+              border: none;
+              border-radius: 200px;
+              margin: 0px;
+              padding: 0px;
+            "
+          />
+        </div>
+        <div class="title">Knowledge Garden</div>
+        <div class="sub-title">
+          Advancing the tools for research, learning, and curating personal
+          knowledge.
+        </div>
+      </div>
+      <div class="slim-section">
+        <div class="download">
+          <a href="./files/app/Cygnus (code name) Setup 1.0.0.exe"
+            >Download App</a
+          >
+        </div>
+        <div>
+          <span class="sub-text"
+            >(Windows 
+            <a href="./files/app/Installation Instructions and Guide.pdf"
+              >Installation guide</a
+            >)</span
+          >
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="content">
+          <div class="content-header">
+            <h1>
+              <span class="content-header-accent">Gather Insights</span>
+              as you seek New Knowledge
+            </h1>
+          </div>
+          <div class="content-body">
+            <div class="content-body-text">
+              <p>
+                <span class="emphasize"
+                  >Knowledge Garden is a document reading app that serves both
+                  as a tool to extract and curate personal insights and as an
+                  application for document text analytics and
+                  visualization.</span
+                >
+              </p>
+              <p>
+                The application is for knowledge seekers - students,
+                researchers, educators, or professionals, who consume digital
+                content and want to extract, organize, recall, and reuse their
+                knowledge gleaned from digital content.
+              </p>
+            </div>
+            <div class="section-v-divider"></div>
+            <div>
+              <a href="./images/ui/Dashboard.png">
+                <img class="showcase-image" src="./images/ui/Dashboard.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="content">
+          <div class="content-header right">
+            <h1>
+              <span class="content-header-accent">Capture and Illuminate</span>
+              your Personal Knowledge
+            </h1>
+          </div>
+          <div class="content-body">
+            <div class="img-container">
+              <a href="./images/ui/Document annotation view.png">
+                <img
+                  class="showcase-image"
+                  src="./images/ui/Document annotation view.png"
+              /></a>
+            </div>
+            <div class="section-v-divider"></div>
+            <div class="content-body-text">
+              <p>
+                <span class="emphasize"
+                  >The app has a novel contextual annotation tool, which can be
+                  used to associate meaningful context with information that you
+                  highlight while reading documents.</span
+                >
+              </p>
+              <p>
+                Visualizations of the contextual notes and annotations aid with
+                recall and aim to provide personal insights. The contexts may be
+                customized to create annotation system for different reading
+                tasks, for example, reviewing a book or reading a proposal.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="content">
+          <div class="content-header">
+            <h1>
+              <span class="content-header-accent">Obtain Novel Insights</span>
+              through Text and Visual Analytics
+            </h1>
+          </div>
+          <div class="content-body">
+            <div class="content-body-text">
+              <p>
+                <span class="emphasize"
+                  >Built-in text and visual document analytics in the app reveal
+                  insights about document structure, content distribution, and
+                  relevance of the material to your research.</span
+                >
+              </p>
+              <p>
+                Other analytical tools focus on analysis of collection of
+                documents. For example, citation analysis, personalized reports,
+                and document similarity, to name a few.
+              </p>
+            </div>
+            <div class="section-v-divider"></div>
+            <div class="img-container">
+              <a href="./images/ui/Document keyword view.png">
+                <img
+                  class="showcase-image"
+                  src="./images/ui/Document keyword view.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="content">
+          <div class="img-container-horizontal">
+            <div>
+              <a href="./images/ui/Notes and references.png">
+                <img
+                  class="thumbnail-image"
+                  src="./images/ui/Notes and references.png"
+              /></a>
+            </div>
+
+            <div>
+              <a href="./images/ui/Image annotation.png">
+                <img
+                  class="thumbnail-image"
+                  src="./images/ui/Image annotation.png"
+              /></a>
+            </div>
+
+            <div>
+              <a href="./images/ui/Document collection analysis.png">
+                <img
+                  class="thumbnail-image"
+                  src="./images/ui/Document collection analysis.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="content">
+          <div class="">
+            <a href="./files/app/Cygnus (code name) Setup 1.0.0.exe"
+              >Download App</a
+            >
+            |
+            <a href="./files/app/Installation Instructions and Guide.pdf"
+              >Installation guide</a
+            >
+          </div>
+          <div>Contact: Sid Thakur, knowledge.garden.app@gmail.com</div>
+
+          <div>© Sid Thakur 2021</div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $("#download-button").on("click", (event) => {
+        console.log("clicked", event);
+      });
+    </script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+  </body>
+</html>
