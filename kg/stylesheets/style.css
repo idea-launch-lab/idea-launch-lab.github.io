@@ -44,8 +44,8 @@ hr {
   text-align: right;
 }
 
-.content-header h1 {
-  font-size: 1.9em;
+.content-header h2 {
+  /* font-size: 1.9em; */
   font-weight: 300;
   margin-bottom: 30px;
 }
