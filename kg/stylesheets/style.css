@@ -59,6 +59,11 @@ h2 {
   margin-top: 10px;
 }
 
+.title-sup {
+  font-size: smaller;
+  vertical-align: top;
+}
+
 .sub-title {
   font-size: normal;
   font-style: italic;
