@@ -97,3 +97,11 @@ hr {
     font-size: 1em;
   }
 }
+
+
+/* Mailchimp */
+.subscription-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
