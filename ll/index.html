@@ -3,62 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Launch</title>
-    <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-        .signup-form {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        input[type="email"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-        }
-        button[type="submit"] {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 3px;
-            cursor: pointer;
-        }
-        button[type="submit"]:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <title>Your Course Name - Product Development for Kids</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to Our Product Launch!</h1>
-        <p>Be among the first to get exclusive updates on our exciting product development course for kids.</p>
-        <div class="signup-form">
-            <form action="#" method="post"> <!-- Replace '#' with your form action URL -->
-                <label for="email">Sign up for updates:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                <button type="submit">Sign Up</button>
+    <!-- Hero Section -->
+    <header class="jumbotron text-center text-white bg-dark">
+        <div class="container">
+            <h1 class="display-4">Unlock Your Child's Inner Innovator</h1>
+            <p class="lead">Join Our Exciting Course in Creating and Launching Amazing Products!</p>
+            <form action="#" method="post" class="form-inline justify-content-center">
+                <div class="form-group mx-sm-3 mb-2">
+                    <label for="email" class="sr-only">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Sign Up</button>
             </form>
         </div>
+    </header>
+
+    <div class="container">
+        <!-- Curriculum Section -->
+        <section id="curriculum">
+            <h2>Curriculum</h2>
+            <p>Our course covers a range of topics, including problem identification, design thinking, prototyping, and product launch.</p>
+            <!-- Add more details about the curriculum here -->
+        </section>
+
+        <!-- Advantages Section -->
+        <section id="advantages">
+            <h2>Advantages</h2>
+            <p>Why choose our course:</p>
+            <ul>
+                <li>Hands-on learning</li>
+                <li>Expert instructors</li>
+                <li>Interactive projects</li>
+                <li>Real-world problem-solving</li>
+            </ul>
+        </section>
+
+        <!-- Instructor Section -->
+        <section id="instructor">
+            <h2>About the Instructor</h2>
+            <p>Meet our experienced instructor who is passionate about nurturing young innovators.</p>
+            <!-- Add more details about the instructor here -->
+        </section>
     </div>
+
+    <!-- Link to Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
