@@ -1,0 +1,108 @@
+body {
+  font-size: 0.925rem;
+}
+.card {
+  border-radius: 10;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  min-height: 120px;
+  padding: 5px;
+}
+.topic-header {
+  color: #ca1a3f;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.my-col {
+  padding: 10;
+}
+.light-sub-text {
+  color: #777777;
+}
+
+ul {
+  list-style: none;
+  line-height: 1.25em;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 12px;
+}
+
+.text-about {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 1rem;
+}
+h5 {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 400px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h4 {
+    font-size: 1em;
+  }
+  /* h5 {
+    font-size: 1.1rem;
+  } */
+}
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-size: 1em;
+  }
+  /* h5 {
+    font-size: 1.1rem;
+  } */
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 2.1rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h4 {
+    font-size: 1.2em;
+  }
+  /* h5 {
+    font-size: 1.1em;
+  } */
+}
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 2.75rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  /* h5 {
+    font-size: 1.1rem;
+  } */
+}
