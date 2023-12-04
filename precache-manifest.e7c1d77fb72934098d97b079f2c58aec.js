@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29d8eebc554ab79568460d0572d87576",
+    "revision": "e37f10cb73e029bddabc4343fa2330a5",
     "url": "/index.html"
   },
   {
-    "revision": "c6c9fb9e4d2b2abe1798",
+    "revision": "f9416847a8903d4db4da",
     "url": "/static/css/main.75723b69.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.ecd41e42.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c6c9fb9e4d2b2abe1798",
-    "url": "/static/js/main.91a78038.chunk.js"
+    "revision": "f9416847a8903d4db4da",
+    "url": "/static/js/main.28cb4d6a.chunk.js"
   },
   {
     "revision": "17d950002c762857ac58",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Sid_Thakur.067e3763.jpg"
   },
   {
-    "revision": "dcb20c4f5c126496dbecdbd03fa3532a",
-    "url": "/static/media/idea-lab-flow.dcb20c4f.png"
+    "revision": "ef8e919789fd1453e751c8b9b9e10628",
+    "url": "/static/media/idea-lab-flow.ef8e9197.png"
   },
   {
     "revision": "74854b8a5c552efc7ac87b559035c6ee",
