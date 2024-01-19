@@ -333,7 +333,7 @@ function Content() {
                     </li>
                     <li>
                       <strong>What will it cost?</strong>
-                      <br /> Information coming soon.
+                      <br /> Please sign up to stay tuned.
                     </li>
                   </ul>
                 </div>
