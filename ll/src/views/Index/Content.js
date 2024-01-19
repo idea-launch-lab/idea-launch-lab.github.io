@@ -1,11 +1,14 @@
 import React from "react";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
+
 import myImage from "../../media/launch-crew.png";
 import "./Content.css";
 
 const heroImage = require("../../media/5070701.jpg");
 const profileImage = require("../../media/Sid_Thakur.jpg");
 const mindmap = require("../../media/idea-launch-lab-map.png");
+const flow = require("../../media/idea-lab-flow.png");
+const prodLifecycle = require("../../media/product-lifecycle.png");
 function Content() {
   const CustomForm = ({ status, message, onValidated }) => {
     let email, name;
@@ -169,7 +172,7 @@ function Content() {
             </div>
           </div>
         </div>
-        <div
+        {/* <div
           className="row"
           style={{
             border: "none",
@@ -177,10 +180,7 @@ function Content() {
             justifyContent: "space-evenly",
           }}
         >
-          {/* <div className="col-lg">
-            <img src={mindmap} width="50%"/>
-          </div> */}
-          <div className="col-lg-4">
+          <div className="col-lg-3">
             <div className="card">
               <div class="features-icons-icon">
                 <i class="icon-puzzle" style={{ fontSize: "1.3rem" }}></i>
@@ -191,7 +191,7 @@ function Content() {
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-3">
             <div className="card">
               <div class="features-icons-icon ">
                 <i class="icon-people" style={{ fontSize: "1.3rem" }}></i>
@@ -202,14 +202,14 @@ function Content() {
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-3">
             <div className="card">
               <div class="features-icons-icon ">
                 <i class="icon-bulb" style={{ fontSize: "1.3rem" }}></i>
               </div>
               <div className="topic-header">Product Design</div>
               <div className="text-center light-sub-text">
-                Design and build prototype
+                Conceptualize and Design
               </div>
             </div>
           </div>
@@ -222,42 +222,62 @@ function Content() {
             justifyContent: "space-evenly",
           }}
         >
-          <div className="col-lg-4">
+          <div className="col-lg-3">
             <div className="card">
               <div class="features-icons-icon ">
                 <i class="icon-chemistry" style={{ fontSize: "1.3rem" }}></i>
               </div>
-              <div className="topic-header">Product Evaluation</div>
+              <div className="topic-header">Prototyping</div>
               <div className="text-center light-sub-text">
-                Test the prototype
+                Build prototypes
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-3">
             <div className="card">
               <div class="features-icons-icon">
-                <i class="icon-bubble" style={{ fontSize: "1.3rem" }}></i>
-              </div>
-              <div className="topic-header">Product Marketing</div>
-              <div className="text-center light-sub-text">
-                Pitch and demo your solution
-              </div>
-            </div>
-          </div>{" "}
-          <div className="col-lg-4">
-            <div className="card">
-              <div class="features-icons-icon ">
                 <i class="icon-rocket" style={{ fontSize: "1.3rem" }}></i>
               </div>
               <div className="topic-header">Launch</div>
               <div className="text-center light-sub-text">
-                Launch your mini startup
+                Pitch and Launch
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3">
+            <div className="card">
+              <div class="features-icons-icon ">
+                <i class="icon-bubble" style={{ fontSize: "1.3rem" }}></i>
+              </div>
+              <div className="topic-header">Evaluate</div>
+              <div className="text-center light-sub-text">
+                Test and Refine Solution
               </div>
             </div>
           </div>
         </div>
+        <br /> */}
+        <div className="row">
+          <div className="col-lg-12">
+            <div style={{ textAlign: "center" }}>
+              <a href={flow} target="_blank">
+                <img src={flow} style={{ maxWidth: "100%", height: "auto" }} />
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* <div className="row">
+          <div className="col-lg-12">
+            <div className="skills-container">
+              Skills
+              <div className="skills">Critical thinking</div>
+              <div className="skills">Problem solving</div>
+              <div className="skills">Prototyping</div>
+              <div className="skills">Presenting</div>
+            </div>
+          </div>
+        </div> */}
         <br />
-
         <div class="row" style={{ marginBottom: 5 }}>
           <div style={{ color: "#006666" }}>
             <div
@@ -304,7 +324,7 @@ function Content() {
                     <li>
                       <strong> How long is the workshop?</strong>
                       <br /> The workshop will happen in one-hour sessions on
-                      weekends, over five weeks.
+                      weekends, over couple weeks. I'm still working it out :)
                     </li>
                     <li>
                       <strong> When and where will it be held?</strong>
