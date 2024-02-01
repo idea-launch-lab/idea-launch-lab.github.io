@@ -1,7 +1,9 @@
 import React from "react";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
-
+import { Player } from "video-react";
+import "../../../node_modules/video-react/dist/video-react.css";
 import myImage from "../../media/launch-crew.png";
+import introVideo from "../../media/intro_video_480p.mp4";
 import "./Content.css";
 
 const heroImage = require("../../media/5070701.jpg");
@@ -154,6 +156,13 @@ function Content() {
             />
           </div>
         </div>
+        <div class="row">
+          <div>
+            <h4>Intro Video</h4>
+          </div>
+          <Player playsInline src={introVideo} width={600}/>
+        </div>
+        <div class="row">&nbsp;</div>
         <div class="row" style={{ marginBottom: 5, marginTop: -20 }}>
           <div style={{ color: "#006666" }}>
             <div
