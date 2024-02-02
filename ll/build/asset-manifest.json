@@ -1,28 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.29de08f4.chunk.css",
-    "main.js": "/static/js/main.04c25734.chunk.js",
-    "main.js.map": "/static/js/main.04c25734.chunk.js.map",
+    "main.js": "/static/js/main.7196b8f4.chunk.js",
+    "main.js.map": "/static/js/main.7196b8f4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7731aa82.js",
     "runtime-main.js.map": "/static/js/runtime-main.7731aa82.js.map",
-    "static/js/2.ecd41e42.chunk.js": "/static/js/2.ecd41e42.chunk.js",
-    "static/js/2.ecd41e42.chunk.js.map": "/static/js/2.ecd41e42.chunk.js.map",
+    "static/css/2.da68fc70.chunk.css": "/static/css/2.da68fc70.chunk.css",
+    "static/js/2.10972dee.chunk.js": "/static/js/2.10972dee.chunk.js",
+    "static/js/2.10972dee.chunk.js.map": "/static/js/2.10972dee.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1b12694d496dfdadc4e77b27b26589fc.js": "/precache-manifest.1b12694d496dfdadc4e77b27b26589fc.js",
+    "precache-manifest.a1e323497a4742b3cd6ddb9f0b7fdfa0.js": "/precache-manifest.a1e323497a4742b3cd6ddb9f0b7fdfa0.js",
     "service-worker.js": "/service-worker.js",
+    "static/css/2.da68fc70.chunk.css.map": "/static/css/2.da68fc70.chunk.css.map",
     "static/css/main.29de08f4.chunk.css.map": "/static/css/main.29de08f4.chunk.css.map",
-    "static/js/2.ecd41e42.chunk.js.LICENSE.txt": "/static/js/2.ecd41e42.chunk.js.LICENSE.txt",
+    "static/js/2.10972dee.chunk.js.LICENSE.txt": "/static/js/2.10972dee.chunk.js.LICENSE.txt",
     "static/media/5070701.jpg": "/static/media/5070701.ad9625c5.jpg",
     "static/media/Sid_Thakur.jpg": "/static/media/Sid_Thakur.067e3763.jpg",
     "static/media/idea-lab-flow.png": "/static/media/idea-lab-flow.4a90224c.png",
     "static/media/idea-launch-lab-map.png": "/static/media/idea-launch-lab-map.74854b8a.png",
+    "static/media/intro_video_480p.mp4": "/static/media/intro_video_480p.5b31e7ca.mp4",
     "static/media/launch-crew.png": "/static/media/launch-crew.cca4aaa4.png",
     "static/media/product-lifecycle.png": "/static/media/product-lifecycle.48086f58.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7731aa82.js",
-    "static/js/2.ecd41e42.chunk.js",
+    "static/css/2.da68fc70.chunk.css",
+    "static/js/2.10972dee.chunk.js",
     "static/css/main.29de08f4.chunk.css",
-    "static/js/main.04c25734.chunk.js"
+    "static/js/main.7196b8f4.chunk.js"
   ]
 }

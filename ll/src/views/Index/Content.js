@@ -332,8 +332,7 @@ function Content() {
                     </li>
                     <li>
                       <strong> How long is the workshop?</strong>
-                      <br /> The workshop will happen in one-hour sessions on
-                      weekends, over couple weeks. I'm still working it out :)
+                      <br /> The workshop will happen in a one 2-hr session.
                     </li>
                     <li>
                       <strong> When and where will it be held?</strong>
