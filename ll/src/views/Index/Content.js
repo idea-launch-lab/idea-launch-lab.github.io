@@ -118,6 +118,22 @@ function Content() {
                 evaluating and pitching ideas, product development, and
                 launching a product!
               </div>
+
+              <div
+                style={{ borderRadius: 6, background: "#ffffff", padding: 0 }}
+              >
+                <span
+                  style={{
+                    color: "red",
+                    fontWeight: "600",
+                  }}
+                >
+                  Register for upcoming workshop, click link below:
+                </span>
+                <br/>
+                <a href="https://tinyurl.com/uwtpe873">https://tinyurl.com/uwtpe873</a>
+              </div>
+              <hr/>
               <div
                 style={{ borderRadius: 6, background: "#429ea3", padding: 10 }}
               >
@@ -129,7 +145,7 @@ function Content() {
                     paddingLeft: 10,
                   }}
                 >
-                  Coming soon.. Sign up to receive updates
+                  Sign up to receive updates
                 </span>
                 <MailchimpSubscribe
                   url={process.env.REACT_APP_MAILCHIMP_KEY}
@@ -157,10 +173,7 @@ function Content() {
           </div>
         </div>
         <div class="row">
-          <div>
-            <h4>Intro Video</h4>
-          </div>
-          <Player playsInline src={introVideo} width={600}/>
+          <Player playsInline src={introVideo} width={600} />
         </div>
         <div class="row">&nbsp;</div>
         <div class="row" style={{ marginBottom: 5, marginTop: -20 }}>
