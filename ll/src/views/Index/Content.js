@@ -119,7 +119,15 @@ function Content() {
                 launching a product!
               </div>
 
-              <div
+              <div><span
+                  style={{
+                    color: "red",
+                    fontWeight: "600",
+                  }}
+                >
+                  New sessions coming soon.. Sign up below to stay tuned.
+                </span></div>
+              {/* <div
                 style={{ borderRadius: 6, background: "#ffffff", padding: 0 }}
               >
                 <span
@@ -132,8 +140,8 @@ function Content() {
                 </span>
                 <br/>
                 <a href="https://tinyurl.com/uwtpe873">https://tinyurl.com/uwtpe873</a>
-              </div>
-              <hr/>
+              </div> */}
+              <hr />
               <div
                 style={{ borderRadius: 6, background: "#429ea3", padding: 10 }}
               >
