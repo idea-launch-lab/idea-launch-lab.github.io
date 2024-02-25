@@ -20,7 +20,7 @@ body {
 .skills-container {
   background-color: beige;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   width: 100%;
 }
 .skills {

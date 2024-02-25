@@ -13,12 +13,13 @@ const flow = require("../../media/idea-lab-flow.png");
 const prodLifecycle = require("../../media/product-lifecycle.png");
 function Content() {
   const CustomForm = ({ status, message, onValidated }) => {
-    let email, name;
+    let email, phone;
     const submit = () =>
       email &&
       email.value.indexOf("@") > -1 &&
       onValidated({
         EMAIL: email.value,
+        PHONE: phone.value,
         tags: "4339278",
       });
 
@@ -36,33 +37,58 @@ function Content() {
             style={{
               borderRadius: 5,
               display: "flex",
+              flexDirection: "column",
               flexWrap: "wrap",
             }}
           >
-            <input
+            <div>
+              <input
+                style={{
+                  borderRadius: 5,
+                  flex: 1,
+                  fontSize: "1em",
+                  marginRight: 10,
+                  padding: 5,
+                  margin: 5,
+                }}
+                ref={(node) => (email = node)}
+                type="email"
+                placeholder="Your email"
+              />
+              <input
+                style={{
+                  borderRadius: 5,
+                  flex: 1,
+                  fontSize: "1em",
+                  marginRight: 10,
+                  padding: 5,
+                  margin: 5,
+                  size: 25,
+                }}
+                ref={(node) => (phone = node)}
+                type="phone"
+                placeholder="Your phone"
+              />
+              <button
+                style={{
+                  borderRadius: 5,
+                  fontSize: "1em",
+                  padding: 5,
+                  margin: 5,
+                }}
+                onClick={submit}
+              >
+                Submit
+              </button>
+            </div>
+            <div
               style={{
-                borderRadius: 5,
-                flex: 1,
-                fontSize: "1em",
-                marginRight: 10,
-                padding: 5,
-                margin: 5,
+                display: "flex",
+                alignItems: "center",
               }}
-              ref={(node) => (email = node)}
-              type="email"
-              placeholder="Your email"
-            />
-            <button
-              style={{
-                borderRadius: 5,
-                fontSize: "1em",
-                padding: 5,
-                margin: 5,
-              }}
-              onClick={submit}
             >
-              Submit
-            </button>
+              The information you provide will be kept private and will not shared.
+            </div>
           </div>
         ) : (
           <div style={{ color: "white", paddingLeft: 5 }}>
@@ -119,14 +145,16 @@ function Content() {
                 launching a product!
               </div>
 
-              <div><span
+              <div>
+                <span
                   style={{
                     color: "red",
                     fontWeight: "600",
                   }}
                 >
                   New sessions coming soon.. Sign up below to stay tuned.
-                </span></div>
+                </span>
+              </div>
               {/* <div
                 style={{ borderRadius: 6, background: "#ffffff", padding: 0 }}
               >
