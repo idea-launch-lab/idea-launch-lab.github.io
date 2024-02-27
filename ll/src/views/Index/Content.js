@@ -87,7 +87,8 @@ function Content() {
                 alignItems: "center",
               }}
             >
-              The information you provide will be kept private and will not shared.
+              The information you provide will be kept private and will not
+              shared.
             </div>
           </div>
         ) : (
@@ -111,7 +112,7 @@ function Content() {
   return (
     <div>
       <div class="container">
-        <div class="row" style={{ marginBottom: 25 }}>
+        <div class="row" style={{ marginBottom: 5 }}>
           <div
             class="col-lg-5"
             style={{
@@ -145,7 +146,7 @@ function Content() {
                 launching a product!
               </div>
 
-              <div>
+              {/* <div>
                 <span
                   style={{
                     color: "red",
@@ -154,22 +155,30 @@ function Content() {
                 >
                   New sessions coming soon.. Sign up below to stay tuned.
                 </span>
-              </div>
-              {/* <div
-                style={{ borderRadius: 6, background: "#ffffff", padding: 0 }}
+              </div> */}
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  backgroundColor: "#f0fff0",
+                  borderRadius: "6px",
+                  padding: "20px",
+                }}
               >
                 <span
                   style={{
                     color: "red",
+                    fontSize: "larger",
                     fontWeight: "600",
                   }}
                 >
-                  Register for upcoming workshop, click link below:
+                  Register for upcoming workshop session:
                 </span>
-                <br/>
-                <a href="https://tinyurl.com/uwtpe873">https://tinyurl.com/uwtpe873</a>
-              </div> */}
-              <hr />
+                <a href="https://tinyurl.com/uwtpe873" target="_blank" style={{paddingTop: "20px"}}>
+                  <span className={"button-register"}>REGISTER</span>
+                </a>
+              </div>
+              {/* <hr />
               <div
                 style={{ borderRadius: 6, background: "#429ea3", padding: 10 }}
               >
@@ -193,7 +202,7 @@ function Content() {
                     />
                   )}
                 />
-              </div>
+              </div> */}
             </div>
           </div>
           <div class="my-col col-lg-7">
@@ -493,7 +502,7 @@ function Content() {
                 paddingLeft: 10,
               }}
             >
-              <i class="icon-rocket "></i> Signup to learn more
+              Sign up to receive updates <i class="icon-rocket "></i>
             </span>
             <MailchimpSubscribe
               url={process.env.REACT_APP_MAILCHIMP_KEY}
