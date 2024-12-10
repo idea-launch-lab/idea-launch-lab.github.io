@@ -691,7 +691,7 @@ label {
 @media screen and (min-width: 992px) {
   p,
   li {
-    font-size: 16px;
+    font-size: 18px;
   }
   .intro-text h1 {
     font-size: 48;
@@ -714,14 +714,11 @@ label {
 @media screen and (max-width: 992px) {
   p,
   li {
-    font-size: 14px;
+    font-size: 16px;
   }
   .intro-text h1 {
     font-size: 30;
     font-weight: 600;
-  }
-  .intro-text p {
-    font-size: 14px;
   }
   .section-title h2 {
     font-size: 22px;
@@ -731,8 +728,5 @@ label {
   }
   #features h3 {
     font-size: 16px;
-  }
-  #features p {
-    font-size: 14px;
   }
 }
