@@ -88,8 +88,8 @@ ol {
   font-size: 24px;
   font-weight: 700;
   color: #333;
-  color: #6372ff
-  /* text-transform: uppercase; */
+  /* color: #6372ff */
+  padding: 15px 5px;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -285,7 +285,7 @@ header .intro-hero {
 }
 #about h3 {
   font-size: 22px;
-  margin: 0 0 20px;
+  margin: 0 0;
 }
 #about h2 {
   position: relative;
