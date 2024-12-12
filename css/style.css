@@ -483,7 +483,7 @@ header .intro-hero {
 }
 #team .about {
   text-align: left;
-  width: 340px;
+  width: 380px;
 }
 /* Contact Section */
 #contact {
@@ -679,6 +679,10 @@ label {
 }
 #features .topic {
   text-align: left;
+}
+#features .topic h3 {
+  color: darkred;
+  font-weight: 600;
 }
 #features .wordcloud {
   max-width: 500px;
