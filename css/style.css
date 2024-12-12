@@ -710,6 +710,19 @@ label {
   #features h3 {
     font-size: 24px;
   }
+  #blog h1 {
+    font-size: 36px;
+    font-weight: 500;
+  }
+  #post h1 {
+    font-size: 32px;
+  }
+  #post h2 {
+    font-size: 24px;
+  }
+  #post p {
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 992px) {
   p,
@@ -729,4 +742,33 @@ label {
   #features h3 {
     font-size: 16px;
   }
+  #blog h1 {
+    font-size: 28px;
+  }
+  #post h1 {
+    font-size: 20px;
+  }
+  #post h2 {
+    font-size: 14px;
+  }
+  #post p {
+    font-size: 13px;
+  }
 }
+
+/* Blog related */
+#blog {
+  padding: 20px;
+  padding-top: 50px
+}
+
+#post {
+  background-color: #fafafa;
+  border-radius: 6px;
+  padding: 20px 30px;
+  margin: 30px;
+  min-width: 250px !important;
+  display: flex;
+  flex-direction: column;
+}
+
