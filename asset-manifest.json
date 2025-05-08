@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6313e2dc.css",
-    "main.js": "/static/js/main.fe466707.js",
+    "main.css": "/static/css/main.3ba407d8.css",
+    "main.js": "/static/js/main.45444a94.js",
     "static/media/intro_video_480p.mp4": "/static/media/intro_video_480p.700b1b0c952d54525739.mp4",
     "static/media/banner.png": "/static/media/banner.fdebf38bbebcff0c0caf.png",
     "static/media/YMIL-2-hd-transparent-bg.png": "/static/media/YMIL-2-hd-transparent-bg.6f905412a8980f0357e5.png",
-    "static/media/DBL.png": "/static/media/DBL.4e0a5ce850f2d4cdeb4d.png",
+    "static/media/DBL.png": "/static/media/DBL.f547adcf968a71ad26a3.png",
     "index.html": "/index.html",
-    "main.6313e2dc.css.map": "/static/css/main.6313e2dc.css.map",
-    "main.fe466707.js.map": "/static/js/main.fe466707.js.map"
+    "main.3ba407d8.css.map": "/static/css/main.3ba407d8.css.map",
+    "main.45444a94.js.map": "/static/js/main.45444a94.js.map"
   },
   "entrypoints": [
-    "static/css/main.6313e2dc.css",
-    "static/js/main.fe466707.js"
+    "static/css/main.3ba407d8.css",
+    "static/js/main.45444a94.js"
   ]
 }
